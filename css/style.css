@@ -2,8 +2,141 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    font-family: 'Shadows Into Light', cursive;
 }
 
-html,body{
-    height: 100%;
+
+
+.container{
+    width: 100%;
+    margin: 0 auto;
+    padding: 0 2%;
 }
+
+h1{
+    text-align: center;
+    margin: 22px 0;
+    
+    font-size: 45px;
+}
+
+.blocos{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.bloco-single{
+    font-family: 'Shadows Into Light', cursive;
+    max-width: 300px;
+    min-width: 300px;
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #ddd;
+    margin: 15px;
+    padding: 22px;
+    -webkit-box-shadow: 3px 12px 15px 5px rgba(153,153,153,0.4); 
+    box-shadow: 3px 12px 15px 5px rgba(153,153,153,0.4);
+}
+
+.bloco-single h2{
+    margin-bottom: 10px;
+    
+}
+
+.bloco-single p{
+    
+    font-size: 22px;
+}
+
+.inputs{
+    width: 100%;
+    text-align: center;
+    margin-bottom: 15px;
+}
+
+.inputs input[type=button]{
+    padding: 5px 10px;
+    border: 0;
+    cursor: pointer;
+    font-size: 22px;
+    
+}
+
+.inputs input[type=button]:focus{
+    outline: 0;
+}
+
+.popup-container{
+    display: none;
+    padding: 25px;
+    background-color: rgba(0,0,0, .80);
+    height: 100%;
+    width: 100%;
+    position: absolute;
+    left: 0;
+    top: 0;
+}
+
+.popup-conteudo{
+    background-color: white;
+    padding: 55px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+}
+
+.popup-conteudo > input, textarea{
+    max-width: 700px;
+    min-width: 700px;
+    font-size: 22px; 
+    margin-bottom: 15px;
+    border: 1px solid #888;   
+}
+
+input[type=text], textarea{
+    padding-left: 10px;
+    
+}
+
+input[type=text]{
+    line-height: 45px;
+}
+
+textarea{
+    height: 100px;
+    resize: none;
+}
+
+input[type=button]{
+    padding: 10px 15px;
+    cursor: pointer;
+}
+
+h3{
+    font-size: 35px;
+    margin-bottom: 15px;
+    background-color: white;
+    border-radius: 30px;
+    padding: 5px 25px;
+}
+
+.close-btn{
+    position: relative;
+    top: -65px;
+    left: 56%;
+    cursor: pointer;
+    font-size: 35px;
+    background-color: white;
+    color: rgb(228, 51, 51);
+    line-height: 25px;
+    border-radius: 100%; 
+}
+
+
+
