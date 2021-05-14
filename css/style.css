@@ -46,8 +46,25 @@ h1{
 }
 
 .bloco-single p{
-    
+    word-wrap:break-word;
+    max-width: 260px;
     font-size: 22px;
+}
+
+.bloco-single span{
+    color: rgba(0,0,0, 0.5);
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+.bloco-single span:hover{
+    color: black;
+    border-radius: 25px;
+    transform: scale(5) translateY(-5px);
+}
+
+.bloco-single strong{
+    margin-top: 25px;
 }
 
 .inputs{
@@ -116,6 +133,7 @@ textarea{
 input[type=button]{
     padding: 10px 15px;
     cursor: pointer;
+    margin-bottom: 35px;
 }
 
 h3{
