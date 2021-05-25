@@ -2,6 +2,10 @@
 var anotacoes= localStorage.getItem('anotacoes')
 anotacoes = JSON.parse(anotacoes)
 
+if(anotacoes == null){
+    var anotacoes = []
+}
+
 // Variáveis
 let btn_anotar = document.querySelector('#btn-anotar')
 let titulo = document.querySelector('#titulo')
@@ -60,7 +64,7 @@ function remover(){
 
     btn_remover.forEach((value, index)=>{
         btn_remover[index].addEventListener('click',()=>{
-            alert('legal')
+            alert(`Anotação de titulo ${anotacoes[index].titulo} foi removida`)
             anotacoes.splice(index,1)
             localStorage.setItem('anotacoes', JSON.stringify(anotacoes))
             exibir()
