@@ -7,9 +7,9 @@ Organize suas anotações em post its
 
 Muito fácil para criar uma nova anotação basta clicar no botão e irá aparecer esse pop-up
 
-![image](https://user-images.githubusercontent.com/55797343/119546734-a0fc3b80-bd6a-11eb-8033-3c92a0efd177.png)
+<img src="https://user-images.githubusercontent.com/55797343/119546734-a0fc3b80-bd6a-11eb-8033-3c92a0efd177.png">
 
 
 Clicando no icone de "reciclar" você apaga a anotação
-![image](https://user-images.githubusercontent.com/55797343/119546950-ddc83280-bd6a-11eb-841b-87da8a33b5e8.png)
+<img src="https://user-images.githubusercontent.com/55797343/119546950-ddc83280-bd6a-11eb-841b-87da8a33b5e8.png">
 
